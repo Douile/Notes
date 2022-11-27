@@ -45,3 +45,6 @@ A GUI to analyse memory usage of a program
 $ heaptrack -p $(pgrep your-program)
 ```
 When the process exits heaptrack will automatically open a GUI showing memory usage
+
+# DrMemory
+Like valgrind but faster?
