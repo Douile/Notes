@@ -3,9 +3,9 @@
 - `-g2` - Maximum debugging symbols
 
 # Optimisation
-`-O0` - No compiler optimisations
-`-O3` - Maximum compiler optimisations
-`-flto` - Enable link time optimisations
+- `-O0` - No compiler optimisations
+- `-O3` - Maximum compiler optimisations
+- `-flto` - Enable link time optimisations
 
 # Static analysis
 Enable lots of good warnings, and treat them as errors so that they get fixed.
