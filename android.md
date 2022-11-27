@@ -9,3 +9,7 @@
 - [GrapheneOS](https://grapheneos.org/)
 - CalyxOS
 - /e/
+
+
+# Boot network fingerprint
+- NTP - qualcom (time.xtracloud.net)
