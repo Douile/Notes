@@ -98,6 +98,13 @@ Prevent debuggers attaching to processes.
 kernel.yama.ptrace_scope = 3
 ```
 
+## dev.tty.legacy_tiocsti
+
+[Prevent legacy tty pushback privesc](https://www.errno.fr/TTYPushback.html) (since kernel 6.2)
+```
+dev.tty.legacy_tiocsti= 0
+```
+
 # Sysctl network tuning
 ## Security
 ### net spoof protection
