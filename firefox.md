@@ -12,5 +12,14 @@
 - `browser.fixup.domainsuffixwhitelist.XX` -  Allow custom domain suffix to resolve
 - `privacy.resistFingerprinting` - Enable resistFingerprinting
 
+## Spoof location
+Set `geo.provider.network.url`
+```json
+data:,{"location":{"lat":51.5,"lng":-0.11},"accuracy":1000}
+```
+Also setting `geo.provider.testing` to true might help
+
+Need to close all tabs for a site before it updates
+
 # Librewolf
 Is pretty cool.
