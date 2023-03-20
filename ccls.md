@@ -1,0 +1,1 @@
+To generate compile_commands.json for most build systems you can use `bear` https://gist.github.com/gtors/effe8eef7dbe7052b22a009f3c7fc434 . NOTE: this works by proxying the compiler through bear so it works best if you clean the compile cache first.
