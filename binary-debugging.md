@@ -48,3 +48,25 @@ When the process exits heaptrack will automatically open a GUI showing memory us
 
 # DrMemory
 Like valgrind but faster?
+
+
+# Binary analysis
+Taken from [immersivelabs](https://dca.immersivelabs.online/v2/labs/intro-to-malware-dynamic-analysis/category/defensive/series/introduction-to-malware-analysis)
+
+[REMnux (Reverse Engineering Malware Linux)](https://docs.remnux.org/)
+
+## Debuggers
+- Ollydbg
+- X64dbg
+- Windbg
+- ImmunityDebugger
+- GDB
+
+## Environments
+- [Cuckoo](https://cuckoosandbox.org/)
+- VxStream (discontinued?)
+
+## Network Simulators
+- InetSim
+- FakeDNS
+
